@@ -8,8 +8,8 @@ const getClientInformation = () => {
       browserVersion: "unknown",
       osName: `native-${Platform.OS}`,
       osVersion: Platform.Version.toString(),
-      deviceVendor: "unknown",
-      deviceType: "unknown",
+      deviceVendor: Platform.OS === "ios" ? "Apple" : "unknown",
+      deviceType: "mobile",
       deviceModel: "unknown",
     })
   } catch {

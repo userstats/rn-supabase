@@ -1,6 +1,6 @@
 {
   "name": "@userstats/rn-supabase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native Client library for https://userstats.io to be used with Supabase",
   "main": "dist/index.js",
   "author": "Eyk Rehbein",
